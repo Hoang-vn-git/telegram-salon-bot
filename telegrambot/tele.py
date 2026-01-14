@@ -2,7 +2,6 @@ import telebot
 from google_sheet_connect import connect
 import os
 
-
 def run_bot():
     # Get Telegram bot token from environment variable
     BOT_TOKEN = os.getenv("BOT_TOKEN")
